@@ -66,4 +66,5 @@ function test_jsonInit_FieldIconMenu() {
   var block = workspace.newBlock(block_name);
   assertTrue('IconMenu field not added to block by jsonInit',
       block.getField(field_name) instanceof Blockly.FieldIconMenu);
+  
 }
